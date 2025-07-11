@@ -91,6 +91,10 @@
     "e2e-tanstack-router#test": {
       "dependsOn": ["build"],
       "env": ["REACT_COMPILER", "E2E_NO_CACHE_ON_RERUN"]
+    },
+    "e2e-tanstack-router#test": {
+      "dependsOn": ["build"],
+      "env": ["REACT_COMPILER", "E2E_NO_CACHE_ON_RERUN"]
     }
   }
 }
